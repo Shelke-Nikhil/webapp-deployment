@@ -9,8 +9,8 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/YOUR_USERNAME/webapp-gitops.git
-    targetRevision: main
+    repoURL: https://github.com/shelke-nikhil/webapp-deployment.git
+    targetRevision: master
     path: .
 
   destination:
