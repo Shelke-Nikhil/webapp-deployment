@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: containerforge/my-web-app
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: NodePort
+  port: 3000
+  targetPort: 3000
