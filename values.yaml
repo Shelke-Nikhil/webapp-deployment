@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: containerforge/my-web-app
-  tag: latest
+  tag: f696ec172b9aa91b2ac6be90fddc405038e41803
   pullPolicy: Always
 
 service:
